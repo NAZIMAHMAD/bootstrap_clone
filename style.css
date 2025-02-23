@@ -1,0 +1,219 @@
+
+/* EXTERNAL CSS USED IN THIS PROJECT FOR THE TYPOGRPAHY NOT FOR LAYOUR AND RESPONSIVE  */
+
+
+/* UNIVERSAL SELECTOR */
+
+
+*
+{
+    padding:0;
+    margin:0;
+}
+
+
+/*  CSS VARABLE FOR ELEMENTS */
+
+
+:root 
+{
+
+--background-color:#35b8be;
+--text-color:#35b8be;
+--padding:4rem 0 4rem 0;
+--common_text:#546285;
+--background-color2:#f2f7f7;
+
+
+
+}
+
+
+
+
+/* HEADER CSS --- 1. */
+
+.header
+{
+    background-color:var(--background-color);
+}
+
+
+.header_logo
+{
+    width:3rem;
+    height:3rem;
+}
+
+.active
+{
+    color:var(--text-color) !important;
+}
+
+.u_list
+{
+    font-size:18px;
+    text-transform: capitalize;
+    
+}
+
+.u_list>li 
+{
+    padding-left:2rem !important;
+}
+
+/* HERO SECTION CSS  --- 2. */
+
+.hero_section
+{
+    background-color:#f2f7f7;
+    padding:var(--padding);
+}
+
+.text_color
+{
+    color: var(--text-color);
+}
+
+
+.hero_btn
+{
+    background-color:var(--background-color);
+    width:10rem;
+    height:3rem;
+    font-size:1.2rem;
+    text-transform: capitalize;
+}
+
+
+
+/* ABOUT US SECTION CSS  --- 3. */
+
+
+.about_us
+{
+    padding:var(--padding);
+
+}
+
+
+/* WORK SECTION CSS  --- 4. */
+
+
+.work_section
+{
+    background-color:#f2f7f7;
+    padding: var(--padding);
+}
+
+.work_content
+{
+    color: var(--common_text);
+}
+
+
+/* BROWSE SECTION CSS  --- 5. */
+
+
+.menu_section
+{
+    padding: var(--padding);
+}
+
+.menu_section_child
+{
+    height:auto;
+}
+
+.menu_card
+{
+    background-color: rgb(249, 250, 251);
+    border:1px solid #35b8be;
+    width:48%;
+    
+}
+
+.menu_card>img 
+{
+    width:8rem;
+    height:8rem;
+}
+
+.card_content>button
+{
+background-color: var(--background-color);
+
+}
+
+.menu_section>button 
+{
+    background-color:#35b8be !important;
+    
+}
+
+
+/* CHECKOUR SECTION CSS  --- 6. */
+
+
+.checkout_section
+{
+    background-color:var(--background-color2);
+    padding:var(--padding);
+}
+
+.callStore_section
+{
+    padding:var(--padding);
+}
+
+/* ORDER SECTION CSS  --- 7. */
+
+.support_section
+{
+    padding:var(--padding);
+    height:35rem !important;
+}
+
+.supportGoodFood_section_right
+{
+    background-color: var(--background-color);
+    height:100% !important;
+    color:white;
+    
+
+}
+
+.support_section_child
+{
+    height:100% !important;
+}
+
+
+.support_section_child_left>img 
+{
+    height:100% !important;
+}
+
+
+/* FOOTER SECTION CSS --- 8. */
+
+.footer_section
+{
+    padding:var(--padding);
+    background-color: var(--background-color2);
+    
+}
+
+/* CHILD FOOTER SECTION CSS  --- 9. */
+
+
+
+.child_footer
+{
+    background-color: var(--background-color);
+    
+}
+
+
+
+
